@@ -1,4 +1,15 @@
 def join_ingredients(src)
+  joinIngredients = []
+  row_index = 0
+while row_index < src.count do
+  inner_results = []
+  inner_results << `I love ${src[row_index][0]} and {{src[row_index][1]} on my pizza`
+  joinIngredients << inner_results
+  row_index += 1
+  
+  end
+  
+  p joinIngredients
   # Given an Array of 2-element Arrays ( [ [food1, food2], [food3, # food4]....[foodN, foodM]]):
   #
   # Build a new Array that contains strings where each pair of foods is
