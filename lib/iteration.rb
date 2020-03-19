@@ -9,9 +9,13 @@ while row_index < src.count do
 end
 
 def find_greater_pair(src)
-  # src will be an array of [ [number1, number2], ... [numberN, numberM] ]
-  # Produce a new Array that contains the larger number of each of the pairs
-  # that are in the inner Arrays
+  largeNum = []
+  row_index = 0
+while row_index < src.count do
+  joinIngredients << "I love #{src[row_index][0]} and #{src[row_index][1]} on my pizza"
+  row_index += 1
+  end
+  p largeNum
 end
 
 def total_even_pairs(src)
