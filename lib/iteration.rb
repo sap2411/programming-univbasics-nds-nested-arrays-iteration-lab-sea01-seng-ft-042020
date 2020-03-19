@@ -38,6 +38,7 @@ else
   evenNum
 end
   row_index = 0
+  total = 0
   while row_index < evenNum.count do
     total += evenNum[row_index]
   row_index += 1
