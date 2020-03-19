@@ -29,7 +29,7 @@ def total_even_pairs(src)
 while row_index < src.count do
   if src[row_index][0] + src[row_index][1] % 2 = 0
     sum = src[row_index][0] + src[row_index][1]
-    evenNum << src[row_index
+    evenNum << sum
   row_index += 1
 else 
   row_index +=1
