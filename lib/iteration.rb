@@ -25,16 +25,21 @@ end
 
 def total_even_pairs(src)
     evenNum = []
+    blah = []
     total = 0 
   row_index = 0
 while row_index < src.count do
   if ((src[row_index][0] + src[row_index][1]) % 2) < 1
     sum = src[row_index][0] + src[row_index][1]
     evenNum << sum
+    blah << src[row_index][0]
+    blah << src[row_index][1]
   row_index += 1
 else 
   row_index +=1
   end
+  p blah
+end
 end
   row_index = 0
   while row_index < evenNum.count do
