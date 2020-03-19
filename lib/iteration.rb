@@ -2,7 +2,7 @@ def join_ingredients(src)
   joinIngredients = []
   row_index = 0
 while row_index < src.count do
-  inner_results = [`I love  and on my pizza`]
+  inner_results = ["I love  and on my pizza"]
   joinIngredients << inner_results
   row_index += 1
   end
