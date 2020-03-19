@@ -38,12 +38,10 @@ else
 end
   row_index = 0
   while row_index < evenNum.count do
-  element_index = 0
-  while element_index < guessing_game_grid[row_index].count do
-    total += guessing_game_grid[row_index]
-    element_index += 1
-  end
+    total += evenNum[row_index]
   row_index += 1
+end
+p total
   # src will be an array of [ [number1, number2], ... [numberN, numberM] ]
   # if both numbers in the pair are even, then add both those numbers to the
   # total
