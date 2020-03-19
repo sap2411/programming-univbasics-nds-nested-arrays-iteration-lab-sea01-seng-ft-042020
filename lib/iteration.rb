@@ -12,7 +12,7 @@ def find_greater_pair(src)
   largeNum = []
   row_index = 0
 while row_index < src.count do
-  joinIngredients << "I love #{src[row_index][0]} and #{src[row_index][1]} on my pizza"
+  if sr
   row_index += 1
   end
   p largeNum
