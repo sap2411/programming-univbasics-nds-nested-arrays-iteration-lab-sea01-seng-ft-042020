@@ -2,7 +2,6 @@ def join_ingredients(src)
   joinIngredients = []
   row_index = 0
 while row_index < src.count do
- 
   joinIngredients << "I love #{src[row_index][0]} and #{src[row_index][1]} on my pizza"
   row_index += 1
   end
